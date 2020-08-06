@@ -50,7 +50,7 @@ inputs:
     required: false
     default: ""
   extra-isort-options:
-    description: "Extra options: isort -rc $(extra-isort-options) $(python-root-list) -c --diff "
+    description: "Extra options: isort $(extra-isort-options) $(python-root-list) -c --diff "
     required: false
     default: ""
 
